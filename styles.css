@@ -47,10 +47,10 @@ i:hover{
 }
 
 .link__hover-effect--white:after {
-    background: white;
+    background-color: white;
 }
 
-.link__hover-effect:hover:after {
+.link__hover-effect--black:hover:after {
     background-color: black;
 }
 
@@ -220,7 +220,7 @@ padding-top: 8px;}
     animation: fade-up 650ms 800ms backwards; 
 }
 
-@keyframes fad-up {
+@keyframes fade-up {
     0% {
         opacity: 0;
         transform: translateY(40px);
@@ -421,7 +421,7 @@ footer {
 .footer__social--list {
     width: 100%;
     max-width: 500px;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     display: flex;
     justify-content: space-around;
     }
@@ -446,6 +446,7 @@ footer {
 }
 
 .footer__logo--popper {
+    
     position: absolute;
     right: 0;
     top: 30px;
